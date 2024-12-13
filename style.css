@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f5f7, #e8eaed); 
+    color: #3a3a3a; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff; 
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Header  */
+  h1 {
+    text-align: center;
+    color: #4a5568; 
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #6b7280; 
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background: #b08900; 
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background: #8a6b00; 
+    box-shadow: 0 4px 8px rgba(138, 107, 0, 0.2); 
+  }
+  
+  /* Input and Textarea */
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d1d5db; 
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #b08900; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(176, 137, 0, 0.3); 
+  }
+  
+  /* Form */
+  form {
+    background: #f7f9fb; 
+    padding: 20px;
+    border: 1px solid #d1d5db; 
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  /* Form */
+  form button {
+    width: 100%;
+    padding: 12px;
+    background: #b08900; 
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #8a6b00; 
+    box-shadow: 0 4px 8px rgba(138, 107, 0, 0.2); 
+  }
+  
+  /* Output */
+  #output {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f5f7f9; 
+    border: 1px solid #d1d5db; 
+    border-radius: 5px;
+    color: #4a5568; 
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
